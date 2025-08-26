@@ -1,5 +1,6 @@
-package com.api_game.dslist.entities;
+package com.api_game.dslist.dto;
 
+import com.api_game.dslist.entities.Game;
 
 public class GameMinDTO {
 	
