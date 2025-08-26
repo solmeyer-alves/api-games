@@ -1,7 +1,6 @@
 package com.api_game.dslist.services;
 
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,18 +15,18 @@ import com.api_game.dslist.repositories.GameRepository;
 public class GameService {
 	
 	@Autowired
-	private GameRepository repository;
+	private GameRepository gameRepository;
 	
 	@Transactional(readOnly = true)
 	public GameDTO findById(Long id) {
-		Game result = repository.findById(id).get();
+		Game result = gameRepository.findById(id).get();
 		return new GameDTO(result);
 		
 	}
 	
 	@Transactional(readOnly = true)
 	public List<GameMinDTO> listAll(){
-		List<Game> result = repository.findAll();
+		List<Game> result = gameRepository.findAll();
 		return result.stream().map(x -> new GameMinDTO(x)).toList();
 		
 	}
