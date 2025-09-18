@@ -99,5 +99,5 @@ Projeto desenvolvido por **Solmeyer Alves**.
 ---
 
 ## 🙏 Agradecimentos 
-Gostaria de agradecer a iniciativa e ensinamentos do professor **Nélio Alves** da [DevSuperior](https://devsuperior.club/login/) que tornou possível o desenvolvimento desse projeto.
+Gostaria de agradecer a iniciativa e ensinamentos do professor **Nélio Alves** da [DevSuperior](https://devsuperior.com.br/) que tornou possível o desenvolvimento desse projeto.
 Seu apoio, feedback e dedicação foram essenciais para tornar esta API possível. 🚀
